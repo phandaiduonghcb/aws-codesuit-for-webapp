@@ -1,0 +1,20 @@
+#!bin/bash
+sudo apt update
+yes | sudo apt install ruby-full wget
+
+cd /home/ubuntu
+wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto > /tmp/logfile
+sudo service codedeploy-agent start
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zi>
+unzip awscliv2.zip
+sudo ./aws/install
+
+# Configure AWS credentials
+# Attach IAM
+# elastic ips
