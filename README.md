@@ -25,7 +25,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-# AWS CI/CD for deploying a FastAPI applcation 
+# AWS CI/CD for deploying a FastAPI application 
 
 <!-- PROJECT LOGO -->
 <!-- <br />
